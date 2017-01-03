@@ -7,7 +7,9 @@ DCLog can print log and crash information on your Device screen, when you shake 
 
 DCLog is a lightweight tool, when you want to show log and crash information on your device screen.
 
-
+ <img src="Source/WechatIMG2.jpeg" width = "300"  alt="Log infomation" align=center />
+ <img src="Source/WechatIMG1.jpeg" width = "300"  alt="crash infomation" align=center />
+ 
 ## How to use?
 
 
