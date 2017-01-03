@@ -4,6 +4,7 @@ DCLog can print log and crash information on your Device screen, when you shake 
 [![license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/DarielChen/DCLog/blob/master/LICENSE)
 
 ## What is DCLog?
+[中文介绍在这里:iOS摇一摇在屏幕上实时显示log和crash日志](http://www.jianshu.com/p/94b96ac1932b)
 
 DCLog is a lightweight tool, when you want to show log and crash information on your device screen.
 

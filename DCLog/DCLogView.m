@@ -2,7 +2,7 @@
 //  DCLogView.m
 //  DCLogViewDemo
 //
-//  Created by DarielChen https://github.com/DarielChen/DCLog.
+//  Created by DarielChen https://github.com/DarielChen/DCLog
 //  Copyright © 2016年 DarielChen. All rights reserved.
 //
 
