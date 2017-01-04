@@ -22,14 +22,6 @@ DCLog is a lightweight tool, when you want to show log and crash information on 
     return YES;
 }
 
-- (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event {
-
-    if (event.type == UIEventSubtypeMotionShake) {
-        [DCLog changeVisible];
-    }
-    
-}
-
 ```
 
 When you shake your device,the logView will show or hidden.

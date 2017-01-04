@@ -15,6 +15,7 @@
 		15525A361E1699CD00C4099B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15525A341E1699CD00C4099B /* LaunchScreen.storyboard */; };
 		15525A491E1B6F5D00C4099B /* DCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 15525A461E1B6F5D00C4099B /* DCLog.m */; };
 		15525A4A1E1B6F5D00C4099B /* DCLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15525A481E1B6F5D00C4099B /* DCLogView.m */; };
+		15B4A5EE1E1D2FC7008B4370 /* UIWindow+DCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B4A5ED1E1D2FC7008B4370 /* UIWindow+DCLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		15525A461E1B6F5D00C4099B /* DCLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCLog.m; sourceTree = "<group>"; };
 		15525A471E1B6F5D00C4099B /* DCLogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCLogView.h; sourceTree = "<group>"; };
 		15525A481E1B6F5D00C4099B /* DCLogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCLogView.m; sourceTree = "<group>"; };
+		15B4A5EC1E1D2FC7008B4370 /* UIWindow+DCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+DCLog.h"; sourceTree = "<group>"; };
+		15B4A5ED1E1D2FC7008B4370 /* UIWindow+DCLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+DCLog.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				15525A461E1B6F5D00C4099B /* DCLog.m */,
 				15525A471E1B6F5D00C4099B /* DCLogView.h */,
 				15525A481E1B6F5D00C4099B /* DCLogView.m */,
+				15B4A5EC1E1D2FC7008B4370 /* UIWindow+DCLog.h */,
+				15B4A5ED1E1D2FC7008B4370 /* UIWindow+DCLog.m */,
 			);
 			path = DCLog;
 			sourceTree = SOURCE_ROOT;
@@ -170,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15525A2E1E1699CD00C4099B /* ViewController.m in Sources */,
+				15B4A5EE1E1D2FC7008B4370 /* UIWindow+DCLog.m in Sources */,
 				15525A2B1E1699CD00C4099B /* AppDelegate.m in Sources */,
 				15525A4A1E1B6F5D00C4099B /* DCLogView.m in Sources */,
 				15525A491E1B6F5D00C4099B /* DCLog.m in Sources */,
