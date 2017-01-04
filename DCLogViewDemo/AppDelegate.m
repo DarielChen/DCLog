@@ -19,7 +19,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [DCLog startRecord];
+    [DCLog setLogViewEnabled:YES];
+    
     return YES;
 }
 

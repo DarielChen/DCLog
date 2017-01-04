@@ -19,8 +19,4 @@
 }
 
 
-- (BOOL)canBecomeFirstResponder {
-    return YES;
-}
-
 @end

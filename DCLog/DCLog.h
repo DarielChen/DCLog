@@ -11,26 +11,10 @@
 @interface DCLog : NSObject
 
 
-/**
- Start record Normal and Crash log 
- 
- You can use in -application:didFinishLaunchingWithOptions:
- */
-+ (void)startRecord;
+
++ (void)setLogViewEnabled:(BOOL)logViewEnabled;
 
 
-/**
- Hide or show the LogView
- 
- You can add the code in AppDelegate.m
- 
- - (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event {
- 
-    if (event.type == UIEventSubtypeMotionShake) {
-        [DCLog changeVisible];
-    }
- }
- */
 + (void)changeVisible;
 
 @end

@@ -25,26 +25,41 @@
 
 @property (nonatomic, assign) NSInteger index;
 
+@property(nonatomic, assign) BOOL logViewEnabled;
+
+
 @end
 
 @implementation DCLog
 
-+ (void)startRecord {
++ (void)setLogViewEnabled:(BOOL)logViewEnabled {
+
+    [DCLog shareLog].logViewEnabled = logViewEnabled;
     
+    [DCLog startRecord];
+}
+
++ (void)startRecord {
+    if ([DCLog shareLog].logViewEnabled == YES) {
+
 #if DEBUG
-    NSSetUncaughtExceptionHandler(&UncaughtExceptionHandler);
-    [[DCLog shareLog] saveLogInfo];
+        NSSetUncaughtExceptionHandler(&UncaughtExceptionHandler);
+        [[DCLog shareLog] saveLogInfo];
 #else
 #endif
+    }
 }
 
 + (void)changeVisible {
     
+    if ([DCLog shareLog].logViewEnabled == YES) {
+        
 #if DEBUG
-    DCLog *log = [DCLog shareLog];
-    log.time ? [log hideLogView] : [log showLogView];
+        DCLog *log = [DCLog shareLog];
+        log.time ? [log hideLogView] : [log showLogView];
 #else
 #endif
+    }
 }
 
 

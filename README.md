@@ -18,7 +18,7 @@ DCLog is a lightweight tool, when you want to show log and crash information on 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [DCLog startRecord];
+    [DCLog setLogViewEnabled:YES];
     return YES;
 }
 
